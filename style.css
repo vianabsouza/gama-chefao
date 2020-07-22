@@ -83,3 +83,14 @@ body{
     width: 25vw;
     height: auto;
 }
+
+/*Planos disponiveis*/
+.planos-disponiveis{
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #2E3650;
+    font-weight: bold;
+    opacity: 1;
+}
+
