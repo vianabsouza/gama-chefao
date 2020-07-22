@@ -42,16 +42,44 @@ body{
 } 
 
 /* Quem Somos */
-.quem-somos{
-    margin-top: 10px;
-     font-family: 'Roboto', sans-serif;
-     color: #2E3650;
-     font-weight: bold;
-     opacity: 1;
-     font-size: 3.50vw;
+.h-quem-somos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;    color: #2E3650;
+    font-weight: bold;
+    opacity: 1;
 }
 
 .p-quem-somos{
+    font-family: 'Roboto', sans-serif;
     color: #2E3650;
     opacity: 1;
+}
+
+/* Como funciona */
+.como-funciona{
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #2E3650;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.container-desafio h4{
+    font-family: 'Roboto', sans-serif;
+    color: #2E3650;
+    font-weight: bold;
+}
+
+.container-desafio p{
+    font-family: 'Roboto', sans-serif;
+    color: #2E3650;
+    width: 225px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 40px;  
+}
+.container-desafio img{
+    width: 25vw;
+    height: auto;
 }
