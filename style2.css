@@ -6,11 +6,13 @@ body{
 .bg-header{
     background-color: #2E3650;
     width: 100%;
-    height: 223px;
+    height: auto;
 }
 
 .img-logo{
-    padding-top: 43px;
+    padding: 5px;
+    width: 12vw;
+    height: auto;
 }
 
 .card{
@@ -29,26 +31,37 @@ body{
     border: #707070;
 }
 
-.btn{
+.btn {
     font-family: 'Roboto', sans-serif;
     background: #87B42A;
     color: #FFFFFF;
     text-align: center;
-    padding: 77px 350px; 
+    width: 80%;
+}
+
+form{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.container-formulario{
+    text-align: center;    
 }
 
 .formulario{
-    display: block;
-    width: 100%;
-    padding: 312px 566px;
+    display: inline-block;
+    padding: 2% ;
+    width: 30%;
     background: #FFFFFF;
-    border: 1px solid #707070;
+    border: 1px solid #7e7e7e;
     opacity: 1;
 }
+.formulario input{
+    border: 1px solid #707070;
+}
+
 .rodape{
     background-color: #F6BB00;
     width: 100%;
     height: 86px;
-    top: 994px;
-    left: 0px;
 }
