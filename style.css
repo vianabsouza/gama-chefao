@@ -5,6 +5,7 @@ body{
 
 /* Página 1 */
 
+/* Logotipo */
 .bg-header{
     background-color: #2E3650;
     width: 100%;
@@ -17,6 +18,7 @@ body{
     height: auto;
 }
 
+/* Imagem principal */
 #img-header{
     width: 100%;
     height: 100%;
@@ -27,7 +29,7 @@ body{
     top: 10vw;
     margin-left: 7vw;
     width: 42vw;
-    Font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 3.2vw;
     position: absolute;
@@ -38,3 +40,18 @@ body{
     color: #FFFFFF;
     opacity: 1;
 } 
+
+/* Quem Somos */
+.quem-somos{
+    margin-top: 10px;
+     font-family: 'Roboto', sans-serif;
+     color: #2E3650;
+     font-weight: bold;
+     opacity: 1;
+     font-size: 3.50vw;
+}
+
+.p-quem-somos{
+    color: #2E3650;
+    opacity: 1;
+}
