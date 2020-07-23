@@ -23,12 +23,12 @@ body{
     background-size: 100%;
     width: 100%;
 }
-.input{
+form .input{
     top: 396px;
     width: 754px;
     left: 553px;
     height: 94px;
-    border: #707070;
+    border: 1px solid #707070;
 }
 
 .btn {
@@ -39,27 +39,33 @@ body{
     width: 100px;
 }
 
-/* @media (max-width: 390px) {
+ @media (max-width: 390px) {
     .btn{
        width: 70px;
     }
 }
-
-form{
-    margin-top: 3%;  
+@media (max-width: 510px){
+    input{
+        width: 150px;
+    }
+}
+@media (max-width: 420px){
+    input{
+        width: 100px;
+    }
 }
 
 .container{
     display: block;
     padding: 2% ;
-    width: 30%;
+    width: 40%;
     background: #FFFFFF;
     border: 1px solid #7e7e7e;
     opacity: 1;
     text-align: center;  
     margin-bottom: 8%;  
 }
-*/
+
 .rodape{
     background-color: #F6BB00;
     width: 100%;
