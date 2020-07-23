@@ -6,16 +6,17 @@ body{
 /* Página 1 */
 
 /* Logotipo */
-.bg-header{
+#background{
     background-color: #2E3650;
     width: 100%;
     height: auto;
 }
 
-.img-logo{
-    padding: 5px;
-    width: 12vw;
+#img-logo{
+    padding: 10px;
+    width: 150px;
     height: auto;
+
 }
 
 /* Imagem principal */
@@ -42,10 +43,12 @@ body{
 } 
 
 /* Quem Somos */
-.h-quem-somos{
+.blue-headlines{
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;    color: #2E3650;
+    font-size: 35px;    
+    color: #2E3650;
     font-weight: bold;
+    text-align: center;
     opacity: 1;
 }
 
@@ -56,9 +59,9 @@ body{
 }
 
 /* Como funciona */
-.como-funciona{
+.blue-upper-headlines{
     font-family: 'Roboto', sans-serif;
-    font-size: 38px;
+    font-size: 35px;
     text-transform: uppercase;
     color: #2E3650;
     font-weight: bold;
@@ -84,25 +87,57 @@ body{
     height: auto;
 }
 
-/*Planos disponiveis*/
-.planos-disponiveis{
-    font-family: 'Roboto', sans-serif;
-    font-size: 38px;
-    text-transform: uppercase;
-    color: #2E3650;
-    font-weight: bold;
-    opacity: 1;
+.card-body{
+    padding: 30px;
 }
 
-.btn-primary{
+.card-smaller{
+    margin-top: 30px;
+}
+
+.main-card{
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card h4{
+    font-family: 'Roboto', sans-serif;
+    color: #2E3650;
+}
+
+.card h2{
+    font-family: 'Roboto', sans-serif;
+    color: #2E3650;
+    font-weight: bold;;
+}
+
+.card h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #2E3650;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #2E3650;
+    margin-bottom: 8px;
+}
+
+.card span{
+    font-size: 18px; 
+}
+
+.btn-primary, .btn:hover{
     font-family: 'Roboto', sans-serif;
     background: #87B42A;
     color: #FFFFFF;
     border: 1px solid #87B42A;
+    border-radius: 0;
 }
 
-/* Regras */
-.card-regras h2{
+.card-regras h1{
     font-family: 'Roboto', sans-serif;
     color: #2E3650;
     font-weight: bold;
@@ -135,7 +170,6 @@ body{
 
 .footer{
     background-color: #F6BB00;
-
     left: 0;
     bottom: 0;
     width: 100%;
