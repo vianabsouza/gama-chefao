@@ -39,7 +39,7 @@ body{
     width: 100px;
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
     .btn{
        width: 70px;
     }
@@ -59,7 +59,7 @@ form{
     text-align: center;  
     margin-bottom: 8%;  
 }
-
+*/
 .rodape{
     background-color: #F6BB00;
     width: 100%;
