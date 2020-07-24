@@ -4,7 +4,6 @@ html, body{
     padding: 0;
 }
 
-/* Formulario */
 #background{
     background-color: #2E3650;
     width: 100%;
@@ -22,7 +21,6 @@ form{
     border: 1px solid #7e7e7e;
     margin-top: 80px;
     padding:15px;
-
 }
 
 input{
@@ -43,7 +41,6 @@ input{
     color: #FFFFFF;
 }
 
-/* Formulario e Thank you page */
 .card{
     font-family: 'Roboto', sans-serif;
     text-align: left;
@@ -53,9 +50,8 @@ input{
     width: 100%;
 }
 
-#footer{
+.footer{
     background-color: #F6BB00;
-    position: fixed;
     height: 75px;
     bottom: 0;
 }
