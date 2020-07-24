@@ -96,7 +96,7 @@ body{
 }
 
 .main-card{
-    padding-top: 60px;
+    padding-bottom: 30px;
     margin-bottom: 60px;
 }
 
@@ -163,12 +163,13 @@ body{
     font-family: 'Roboto', sans-serif;
     background: #87B42A;
     color: #FFFFFF;
-    text-align: center;
-    width: 15%;
-    margin-bottom: 2%
+    margin-bottom: 20px;
+    width: 200px;
+    border: 1px solid #87B42A;
+    border-radius: 0;
 }
 
-#footer{
+.footer{
     background-color: #F6BB00;
     height: 75px;
     padding: 0px;

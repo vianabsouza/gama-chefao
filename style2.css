@@ -50,9 +50,15 @@ input{
     width: 100%;
 }
 
-.footer{
+#footer-form{
     background-color: #F6BB00;
+    position: fixed;
     height: 75px;
     bottom: 0;
 }
           
+#footer-tks{
+    background-color: #F6BB00;
+    height: 75px;
+    bottom: 0;
+}
